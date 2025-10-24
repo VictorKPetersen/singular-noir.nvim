@@ -1,0 +1,1 @@
+require("singular-noir").setup()
