@@ -91,9 +91,9 @@ return function(colors)
         -- ScrollBar            = {},
         -- Tooltip              = {},
 
-        Comment            = { fg = colors.blue1, italic = true },
+        Comment            = { fg = colors.grey1, italic = true },
 
-        Constant           = { fg = colors.orange1 },
+        Constant           = { link = "Normal" },
         String             = { fg = colors.orange1 },
         Character          = { link = "String" },
         Number             = { fg = colors.orange1 },
@@ -108,7 +108,7 @@ return function(colors)
         Repeat             = { link = "Normal" },
         Label              = { link = "Normal" },
         Operator           = { link = "Normal" },
-        Keyword            = { link = "Normal" },
+        Keyword            = { fg = colors.grey2 },
         Exception          = { link = "Normal" },
 
         PreProc            = { link = "Normal" },
@@ -117,13 +117,13 @@ return function(colors)
         Macro              = { link = "PreProc" },
         PreCondit          = { link = "PreProc" },
 
-        Type               = { fg = colors.grey1 },
+        Type               = { fg = colors.grey2 },
         StorageClass       = { fg = colors.grey3 },
         Structure          = { fg = colors.grey3 },
         Typedef            = { fg = colors.grey3 },
 
         Special            = { link = "Normal" },
-        SpecialChar        = { fg = colors.orange1 },
+        SpecialChar        = { fg = colors.orange3 },
         Tag                = { link = "Special" },
         Delimiter          = { link = "Normal" },
         SpecialComment     = { link = "Special" },
