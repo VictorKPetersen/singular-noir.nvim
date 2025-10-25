@@ -13,10 +13,13 @@ M.colors = {
 
     white = "#ffffff",
 
-    comment = "#804400", -- hsl(32, 100%, 25%)
     orange1 = "#b35f00", -- hsl(32, 100%, 35%)
     orange2 = "#ff8800", -- hsl(32, 100%, 50%)
     orange3 = "#ffa033", -- hsl(32, 100%, 60%)
+
+    blue1 = "#0054B3", --hsl(212, 100%, 35%)
+    blue2 = "#0077FF", --hsl(212, 100%, 50%)
+    blue3 = "#3392FF", --hsl(212, 100%, 60%)
 
     green = "#2f7030",
     yellow = "#b35f00",
