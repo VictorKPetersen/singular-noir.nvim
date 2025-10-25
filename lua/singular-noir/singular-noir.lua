@@ -36,11 +36,13 @@ end
 
 local core = require("singular-noir.highlights.core")(M.colors)
 local treesitter = require("singular-noir.highlights.treesitter")(M.colors)
+local mini = require("singular-noir.highlights.mini")(M.colors)
 
 
 M.highlights = merge_highlights(
     core,
-    treesitter
+    treesitter,
+    mini
 )
 
 return M
