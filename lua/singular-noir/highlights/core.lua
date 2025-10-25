@@ -98,7 +98,7 @@ return function(colors)
         Character          = { link = "String" },
         Number             = { fg = colors.orange1 },
         Boolean            = { fg = colors.orange1 },
-        Float              = { link = "Number" },,
+        Float              = { link = "Number" },
 
         Identifier         = { link = "Normal" },
         Function           = { fg = colors.orange2 },
