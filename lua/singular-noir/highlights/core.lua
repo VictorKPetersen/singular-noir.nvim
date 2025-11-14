@@ -81,7 +81,7 @@ return function(colors)
         -- TabLineFill          = {},
         -- TabLineSel           = {},
         Title              = { link = "Normal" },
-        Visual             = { bg = colors.black2 },
+        Visual             = { bg = colors.grey1 },
         VisualNOS          = { link = "Visual" },
         Whitespace         = { bg = colors.black },
         WildMenu           = { link = "CursorLine" },
